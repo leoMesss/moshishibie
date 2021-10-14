@@ -1,0 +1,6 @@
+load sonar
+k=1:120;
+for i=1:size(k,2)
+    Rate=[Rate;CalRate()];
+end
+
